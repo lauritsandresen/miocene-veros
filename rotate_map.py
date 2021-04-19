@@ -2,6 +2,7 @@ import numpy as np
 import xarray as xr
 import matplotlib.pyplot as plt
 
+#This script can be used to rotate maps around a given point (rc1,rc2) by a given angle (beta)
 
 map_file2 = xr.open_dataset('mmco_topo_bathy_v1_0.nc')
 #map_file2 = xr.open_dataset('mmco_veg_v1_0.nc')
