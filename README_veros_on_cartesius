@@ -7,3 +7,4 @@ module load Python/3.7.5-foss-2018b HDF5/1.10.2-foss-2018b PETSc/3.11.2-foss-201
 
 In the future an intel compiled python might work with veros, and in that case it is most likely FASTER
 
+You can use the file "veros_cart_submit.sh" to submit a veros run on cartesius via the sbatch command
