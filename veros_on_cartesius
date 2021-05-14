@@ -1,0 +1,9 @@
+To run veros on cartesius you need to load a Python 3 module, a HDF5 module and PETSc.
+The modules compiled with the intel compiler seems to NOT work. Instead ise packages compiled with the opensource set of compilers (foss).
+I loaded the packages with the following commands:
+
+module load 2019
+module load Python/3.7.5-foss-2018b HDF5/1.10.2-foss-2018b PETSc/3.11.2-foss-2018b foss/2018b
+
+In the future an intel compiled python might work with veros, and in that case it is most likely FASTER
+
