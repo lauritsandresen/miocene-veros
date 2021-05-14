@@ -1,4 +1,4 @@
-## This file is an example of a script for submitting veros on cartesius
+## This file is an example of a script for submitting veros on cartesius. Please look at the file README_veros_on_cartesius
 #!/bin/bash
 #SBATCH -p short
 #SBATCH -t 0:05:00
